@@ -1,0 +1,3 @@
+com\progrank\security\oauth\SpringSecurityOauth21Application.class
+com\progrank\security\oauth\config\AuthorizationServerConfig.class
+com\progrank\security\oauth\config\UserManagerConfig.class

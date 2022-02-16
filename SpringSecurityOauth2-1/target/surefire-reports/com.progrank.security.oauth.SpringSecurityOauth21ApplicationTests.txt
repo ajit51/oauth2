@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.progrank.security.oauth.SpringSecurityOauth21ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.133 s - in com.progrank.security.oauth.SpringSecurityOauth21ApplicationTests
