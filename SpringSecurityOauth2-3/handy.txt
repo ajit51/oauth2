@@ -1,0 +1,28 @@
+To generate token
+	http://localhost:8080/oauth/token?grant_type=password&username=john&password=1234 - POST
+	
+response - 
+	{
+    "access_token": "a2dc0284-008b-44a6-922a-27d40091a31d",
+    "token_type": "bearer",
+    "refresh_token": "71c4b413-50df-443f-952e-45170a9e09df",
+    "expires_in": 7999,
+    "scope": "read"
+}
+
+
+To check token
+http://localhost:8080/oauth/check_token?token=a2dc0284-008b-44a6-922a-27d40091a31d
+
+response -
+	{
+    "exp": 1645014312,
+    "user_name": "john",
+    "authorities": [
+        "read"
+    ],
+    "client_id": "prorank",
+    "scope": [
+        "read"
+    ]
+}
