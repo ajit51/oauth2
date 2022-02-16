@@ -1,0 +1,13 @@
+Step1 - To create code
+	http://localhost:8080/oauth/authorize?response_type=code&client_id=prorank2&scope=read
+	
+Step2 - To generate token
+	http://localhost:8080/oauth/token?grant_type=authorization_code&code=z3gYeC&scope=read - POST
+	
+response - 
+	{
+    "access_token": "5beeb3e5-42c2-44ea-9df4-49374541ab21",
+    "token_type": "bearer",
+    "expires_in": 43199,
+    "scope": "read"
+}
